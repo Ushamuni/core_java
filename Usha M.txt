@@ -1,0 +1,99 @@
+package com.xworkz.controlStatements;
+
+public class listOfCompany {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String companyName="TCS";
+if(companyName=="TCS") {
+	System.out.println("The founder of tcs is fc kohli");
+}
+else if(companyName=="Infosys") {
+	System.out.println("The founder of Infosys is N.r Narayana Murthy");
+}
+else if(companyName=="Wipro") {
+	System.out.println("The founder of Wipro is M.H.Hasham Premji");
+}
+else if(companyName=="Capgemini") {
+	System.out.println("The founder of Capgemini is Serge Kampf");
+}
+else if(companyName=="IBM") {
+	System.out.println("The founder of IBM is Charles Ranlett Flint");
+}
+	}
+
+}
+
+
+
+
+
+package com.xworkz.controlStatements;
+
+public class pubgInstallation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int RAM=6;
+if(RAM<8) {
+	System.out.println("pubg installed successfully");
+}
+else if(RAM>6) {
+	System.out.println("not able to installed");
+}
+	}
+
+}
+
+
+
+
+
+
+package com.xworkz.controlStatements;
+
+public class tollGate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String Registration="KA";
+if(Registration=="KA") {
+	System.out.println("registration is opened");
+}
+else
+{
+	System.out.println("registration is not opened");
+}
+	}
+
+}
+
+
+
+
+
+
+package com.xworkz.controlStatements;
+
+public class GSTCalculator {
+
+	public static void main(String[] args) {
+		int price=3000;
+		double taxAmount;
+		if(price<4000) {
+			taxAmount=price*0.3/100;
+			System.out.println("TaxAmount " +taxAmount);
+		}
+		else if(price==2000) {
+			taxAmount=price*0.3/100;
+    		System.out.println("TaxAmount is " +taxAmount);
+		}
+	}
+
+}
+
+
+
+
+
+

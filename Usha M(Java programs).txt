@@ -1,0 +1,219 @@
+class ByteTypeExample{
+  public static void main(String args[]){
+byte age;
+byte month;
+byte districtsInKarnataka;
+byte alphabets;
+byte plantesInSolarSystem;
+age=21;
+month=12;
+districtsInKarnataka=31;
+alphabets=26;
+plantesInSolarSystem=8;
+System.out.println("The age is "+age);
+System.out.println("The month is "+month);	 
+System.out.println("The total districts in karnataka is "+districtsInKarnataka);
+System.out.println("The total number of english alphabet is "+alphabets);
+System.out.println("The planets in solar system is "+plantesInSolarSystem);
+}
+}
+
+
+
+class ShortTypeExample{
+  public static void main(String args[]){
+  short currentYear;
+  short annualIncome;
+  short districtsInIndia;
+  short parlimentOfIndia; 
+  short productsInShop;
+  currentYear=2021;
+  annualIncome=10000;
+  districtsInIndia=718;
+  parlimentOfIndia=788;
+  productsInShop=1000;
+  System.out.println("The current year is "+currentYear);
+  System.out.println("The annual income is "+annualIncome);
+    System.out.println("The total districts in india is "+districtsInIndia);
+	  System.out.println("The total member of parlimentOfIndia is "+parlimentOfIndia);
+	  System.out.println("The total number of products in shop is "+productsInShop);
+	    }
+		}
+		
+
+
+class IntTypeExample{
+  public static void main(String args[]){
+  int salary;
+  int pucMarks;
+  int number;
+  int studensInCollege;
+  int sslcMarks;
+  salary=100000;
+  pucMarks=434;
+  number=656;
+  studensInCollege=1500;
+  sslcMarks=450;
+ System.out.println("The salary is "+salary);
+ System.out.println("The total puc marks is "+pucMarks); 
+ System.out.println("The number is "+number);
+ System.out.println("The number of students in college is "+studensInCollege);
+ System.out.println("The total sslc marks is "+sslcMarks);
+
+ }
+ }
+ 
+ 
+ 
+
+
+class LongTypeExample{
+  public static void main(String args[]){
+  long phoneNumber;
+  long sslcRegNum;
+  long pinCode;
+  long aadarNumber;
+  long pucRegNum;
+  phoneNumber=9132457575L;
+  sslcRegNum=20159405L;
+  pinCode=562117L;
+  aadarNumber=201415457L;
+  pucRegNum=20178647L;
+  System.out.println("The phone number is "+phoneNumber);
+    System.out.println("The sslc register number is "+sslcRegNum);
+	  System.out.println("The pin code number is "+pinCode);
+	    System.out.println("The aadar number is "+aadarNumber);
+		  System.out.println("The puc register number is "+pucRegNum);
+  }
+  }
+  
+  
+
+
+class FloatTypeExample{
+  public static void main(String args[]){
+  float marks;
+  float weight;
+  float accountBalance;
+  float currentBillBalance;
+  float choclatePrice;
+  marks=57.81f;
+  weight=67.23f;
+  accountBalance=2085.68f;
+  currentBillBalance=560.01f;
+  choclatePrice=50.00f;
+System.out.println("The marks is "+marks);
+System.out.println("The weight is "+weight);
+System.out.println("The account balance is "+accountBalance);
+System.out.println("The current bill balance is "+currentBillBalance);
+System.out.println("The price of choclate is "+choclatePrice);
+}
+}
+  
+
+
+
+class DoubleTypeExample{
+  public static void main(String args[]){
+  double price;
+  double piValue;
+  price= 1765.9848478474;
+  piValue=3.14285714;
+  System.out.println("The price value is "+price);
+  System.out.println("The value of pi is "+piValue);
+  }
+  }
+  
+
+
+
+class CharacterTypeExample{
+  public static void main(String args[]){
+  char block;
+  char constantLetter;
+  char char1;
+  char char2;
+  char char3;
+  block='a';
+  constantLetter='A';
+  char1='\u0061';
+  char2='\u0041';
+  char3='B';
+  System.out.println("The block is "+block);
+  System.out.println("The constants letter starts with "+constantLetter);
+   System.out.println("The character one is "+char1);
+    System.out.println("The character two is "+char2);
+	 System.out.println("The character three is "+char3);
+  }
+  }
+  
+
+
+
+class BooleanTypeExample{
+  public static void main(String args[]){
+  boolean isSeatAvailable;
+  boolean isPassword;
+  boolean isPrimeNumber;
+  isSeatAvailable=true;
+  isPassword=false;
+  isPrimeNumber=true;
+  System.out.println("The seat is available "+isSeatAvailable);
+   System.out.println("The password is valid "+isPassword);
+    System.out.println("The number is prime number "+isPrimeNumber);
+	}
+  }
+ 
+
+
+class StringTypeExample{
+  public static void main(String args[]){
+  String name;
+  String USN;
+  String language;
+  String emailId;
+  String collegeName;
+  name="Usha";
+  USN="1AP17EC044";
+  language="English";
+  emailId="usha2000m@gmail.com";
+  collegeName="APS College Of Engineering";
+  System.out.println("The name is "+name);
+    System.out.println("The usn is "+USN);
+	  System.out.println("The language is "+language);
+	    System.out.println("The email id is "+emailId);
+		  System.out.println("The college name is "+collegeName);
+  }
+}
+
+  
+  
+
+
+class TicketBooking{
+public static void main(String args[]){
+System.out.println("Start of program");
+ int numberOfSeatsAvailable=5;
+ if(numberOfSeatsAvailable>=1)
+ {
+ System.out.println("we can book a ticket");
+ }
+ System.out.println("end of program");
+ }
+ }
+ 
+ 
+
+class Result{
+public static void main(String args[]){
+System.out.println("Start of program");
+ char var1='P';
+ char var2='F';
+ if(var1=='P')
+ {
+ System.out.println("candidates passed");
+ System.out.println("end of program");
+ }
+ }
+}
+ 
