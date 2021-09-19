@@ -1,0 +1,215 @@
+package com.xworkz.method;
+
+public class phonepay {
+	
+	public static void phonepay_login(String userName, String password) {
+		String un="test";
+		String pwd="123";
+				if(un==userName && pwd==password) {
+					System.out.println("login successfull  "+userName);
+				}
+				else {
+					System.out.println("user name or password not valid");
+				}
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("Begining");
+		phonepay.phonepay_login("test", "123");
+	}
+	
+	
+	}
+	
+
+
+
+
+
+package com.xworkz.method;
+
+public class recharge {
+	
+	public static void rechargeTo(String phoneNumber, String amount) {
+		String pn="9134567851";
+		String amnt="600";
+				if(pn==phoneNumber && amnt==amount) {
+					System.out.println("recharge successfull  "+phoneNumber);
+				}
+				else {
+					System.out.println("phone number is not valid");
+				}
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("Begining");
+		recharge.rechargeTo("9134567851", "600");
+	}
+	
+	
+	}
+	
+
+
+
+
+package com.xworkz.method;
+
+public class electricBill {
+	public static void electricBillRecharge(String billNumber, String amount) {
+		String billNum="124682";
+		String amnt="600";
+				if(billNum==billNumber && amnt==amount) {
+					System.out.println("electric bill recharge successfull  "+billNumber);
+				}
+				else {
+					System.out.println("bill number is not valid");
+				}
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("Begining");
+		electricBill.electricBillRecharge("124682", "600");
+	}
+	
+	
+	}
+
+
+
+
+
+
+package com.xworkz.method;
+
+public class waterBill {
+	public static void waterBillRecharge(String billNumber, String amount) {
+		String billNum="12345624681";
+		String amnt="2000";
+				if(billNum==billNumber && amnt==amount) {
+					System.out.println("water bill recharge successfull  "+billNumber);
+				}
+				else {
+					System.out.println("bill number is not valid");
+				}
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("Begining");
+		waterBill.waterBillRecharge("12345624681", "2000");
+	}
+	
+	
+	}
+
+
+
+
+package com.xworkz.method;
+
+public class DTHRecharge {
+
+	public static void DTH_Recharge(String billNumber, String amount) {
+		String billNum="3456";
+		String amnt="600";
+				if(billNum==billNumber && amnt==amount) {
+					System.out.println("DTH recharge successfull  "+billNumber);
+				}
+				else {
+					System.out.println("bill number is not valid");
+				}
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("Begining");
+		DTHRecharge.DTH_Recharge("3456", "600");
+	}
+	
+	
+	}
+
+
+
+package com.xworkz.method;
+
+public class withdrawal {
+
+	public static void withdrawalAmount(String password, String amount) {
+		String pwd="423456";
+		String amnt="4000";
+				if(pwd==password && amnt==amount) {
+					System.out.println("amount withdrawals successfully  "+password);
+				}
+				else {
+					System.out.println(" password not valid");
+				}
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("Begining");
+		withdrawal.withdrawalAmount("423456", "4000");
+	}
+	
+	
+	}
+	
+
+
+
+package com.xworkz.method;
+
+public class atm {
+
+	public static void atm_login(String password, String balance) {
+		String pwd="123456";
+		String blnc="2000";
+				if(pwd==password && blnc==balance) {
+					System.out.println("login successfull  "+password);
+				}
+				else {
+					System.out.println(" password not valid");
+				}
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("Begining");
+		atm.atm_login("123456", "2000");
+	}
+	
+	
+	}
+	
+
+
+package com.xworkz.method;
+
+public class moneyTransfer {
+
+
+	public static void money_Transfer(String accountNumber, String balance) {
+		String accNum="11263050560";
+		String blnc="20000";
+				if(accNum==accountNumber && blnc==balance) {
+					System.out.println("money transferd successfully  "+accountNumber);
+				}
+				else {
+					System.out.println("Account number is not valid");
+				}
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("Begining");
+		moneyTransfer.money_Transfer("11263050560", "20000");
+	}
+	
+	
+	}
+	
