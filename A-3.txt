@@ -1,0 +1,172 @@
+package com.xworkz.oops;
+
+public class Bank {
+	String branch;
+	String bankName;
+	String Public;
+	String address;
+	int IFSCcode;
+	int numberOFStaffs;
+	
+	public void transaction() {
+		System.out.println("money transaction");
+		}
+	public void loan() {
+		System.out.println("providing loans");
+	}
+	public void paying() {
+		System.out.println("amount paying");
+	}
+	public void withdrawal() {
+		System.out.println("amount withdrawal");
+	}
+	public void lockers() {
+		System.out.println("money in lockers");
+	}
+		
+	
+
+}
+
+
+
+
+package com.xworkz.oops;
+
+public class Mobile {
+	
+	String brand;
+	String color;
+	int ram;
+	int internalStorage;
+	int cameraPixcel;
+	int price;
+	String model;
+	
+	public void call() {
+		System.out.println("Calling");
+		}
+	public void sendMessage() {
+		System.out.println("message sent");
+	}
+	public void takePicture() {
+		System.out.println("photo clicked");
+	}
+	public void playVideo() {
+		System.out.println("watching video");
+	}
+		
+
+}
+
+
+
+
+package com.xworkz.oops;
+
+public class Tv {
+
+	String brand;
+	String color;
+	int price;
+	String model;
+	int storage;
+	int USBport;
+	int length;
+	
+	public void watching() {
+		System.out.println("watching movies");
+		}
+	public void games() {
+		System.out.println("playing games");
+	}
+	public void connect() {
+		System.out.println("connect to the mobile");
+	}
+	public void control() {
+		System.out.println("remote control device");
+	}
+		
+}
+
+
+
+package com.xworkz.oops;
+
+public class Laptop {
+
+	String brand;
+	String color;
+	int ram;
+	int internalStorage;
+	int price;
+	String model;
+	
+	public void movies() {
+		System.out.println("Watching movies");
+		}
+	public void games(){
+		System.out.println("playing games");
+	}
+	public void softwares() {
+		System.out.println("installed softwares");
+	}
+	public void playVideo() {
+		System.out.println("watching video");
+	}
+	public void documents() {
+		System.out.println(" creating documents");
+	}
+		
+	
+}
+
+
+package com.xworkz.oops;
+
+public class Ac {
+	
+	String brand;
+	String color;
+	int price;
+	String model;
+	int Size;
+	
+	public void cooling() {
+		System.out.println("ac cools the room area");
+		}
+	public void temp() {
+		System.out.println("temperature");
+	}
+	public void control() {
+		System.out.println("remotly controlled");
+	}
+		
+
+}
+
+
+package com.xworkz.oops;
+
+public class Car {
+	String brand;
+	String color;
+	int speed;
+	int price;
+	String model;
+	int doors;
+	
+	public void driveFast() {
+		System.out.println("driving the car too fast");
+		}
+	public void accelerated() {
+		System.out.println("the car is moving accelerated forwaed and backwards");
+	}
+	public void seatBelt() {
+		System.out.println("wearing seat belt");
+	}
+	public void sikdding() {
+		System.out.println("skid around the corners");
+	}
+		
+}
